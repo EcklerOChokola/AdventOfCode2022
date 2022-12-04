@@ -30,7 +30,7 @@ function readTotals(str){
         }
     }
     const result = totals.sort().reverse();
-    return [result[1], result[2], result[3]];
+    return result[1] + result[2] + result[3];
 }
 
 const lines = fs.readFileSync(path.join(cwd(), 'input.txt')).toLocaleString();
