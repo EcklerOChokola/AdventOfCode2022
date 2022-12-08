@@ -9,7 +9,7 @@ This repository was made to present my solutions to the Advent of Code 2022. The
 If you want to run a day, simply go to the corresponding directory, then copy your `input.txt` inside it. Then, you simply have to run : 
 
 ```
-npm install
+npm i
 node script.js
 ```
 
